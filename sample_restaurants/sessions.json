@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "61895f7f0e940e439714bed6"
+  },
+  "user_id": "sarah@mail.com",
+  "__v": 0,
+  "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MzY0MDcyMzIsIm5hbWUiOiJTYXJhaCIsImVtYWlsIjoic2FyYWhAbWFpbC5jb20iLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2MzYzOTI4MzJ9.8cTeXOZ0HVn9PX5pnaQ6G8gVixBiwj7qAPXYzXf_yDI"
+},{
+  "_id": {
+    "$oid": "61895fbc0e940e4397151489"
+  },
+  "user_id": "clare@mail.com",
+  "__v": 0,
+  "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MzY0MDcyOTMsIm5hbWUiOiJDbGFyZSIsImVtYWlsIjoiY2xhcmVAbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MzYzOTI4OTN9.9hwCAlFBtyE-ZaddnarCPj2VOHQ8bWHMhFlo7GqTqsc"
+}]

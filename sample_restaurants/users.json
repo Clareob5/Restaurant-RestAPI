@@ -1,0 +1,315 @@
+[{
+  "_id": {
+    "$oid": "59b99db6cfa9a34dcd7885ba"
+  },
+  "name": "Cersei Lannister",
+  "email": "lena_headey@gameofthron.es",
+  "password": "$2b$12$FExjgr7CLhNCa.oUsB9seub8mqcHzkJCFZ8heMc8CeIKOZfeTKP8m",
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618132dab9d2a49954ad8915"
+  },
+  "name": "Katrina",
+  "email": "kater@email.com",
+  "password": "$2a$10$HO0UKlUxH4NZRe4AvmMzYeepRYY71aOLyqd8MXIjhOBjTWGOrvove",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "61830b38442b60752bed1916"
+  },
+  "name": "Clure",
+  "email": "clure@email.com",
+  "password": "$2a$10$GqcbsGedomEP.igk6/m9Ju2/SrEfhSf/PVEPGQSU3.TKOrC6//ygy",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "61856f17fedc31116053f0a0"
+  },
+  "name": "Clur",
+  "email": "cluremail.com",
+  "password": "$2a$10$zgfjP/ERTcwa/qMXPTHcnuY9IfivolpgFqHAxulPjEGprgst/doSG",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618584c7e3ff677c7de18ee8"
+  },
+  "name": "Clur",
+  "email": "clur@mail.com",
+  "password": "$2a$10$oKL.c/jc0AxLLHdRfKL.o.nXdBYx1tTBZKMBv.GbhMC3igUCDoz7O",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "6185855bb66bf1d135082d14"
+  },
+  "name": "Clur",
+  "email": "clur@mail.com",
+  "password": "$2a$10$Xn86rDxC8H4KOhNS4bMW/OJ5qfBP2b4.yqPVt8qDwhLSiV1GQwSWm",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "6185857a1ba9c373fa67ce03"
+  },
+  "name": "Clur",
+  "email": "clur@mail.com",
+  "password": "$2a$10$iqBoRBWlIsDtY2mc3FZx1OILrotP31hNf2LV1rD1HU/Ha49HP..vq",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "6185858d1ba9c373fa67ce06"
+  },
+  "name": "Clur",
+  "email": "clur@mail.com",
+  "password": "$2a$10$DPM3mYYYAUmrxU.RF8BsIO3Ysx3pwOjWcbYmDV5RKtucWpovBir2S",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618585b41ba9c373fa67ce09"
+  },
+  "name": "Clur",
+  "email": "clur@mail.com",
+  "password": "$2a$10$lhxiS1gesN3bYD8ajM0WfOgh367ALR82c.lIo3UdZ81823yMStpMy",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618585ce25bbe6998505f4bc"
+  },
+  "name": "Clur",
+  "email": "clur@mail.com",
+  "password": "$2a$10$h.fnnVLvrNcyvOXuZVyOV.T/2qRllO9eS6N9Lweg3kG1P6DqIkmjC",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618585d725bbe6998505f4bf"
+  },
+  "name": "Clur",
+  "email": "clure@mail.com",
+  "password": "$2a$10$2iRky0WgPzj9Tw4zcRx92OTzLIhV80NLlcy9dVp1diQIZHesVbNBK",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618585f725bbe6998505f4c2"
+  },
+  "name": "Clur",
+  "email": "clure@mail.com",
+  "password": "$2a$10$HZtOFTEZx.ltorr3u/NCKuTIrLjEhyvFdWrvH0uzF9/DQlQ84UtfO",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618585fc25bbe6998505f4c5"
+  },
+  "name": "Clur",
+  "email": "clureee@mail.com",
+  "password": "$2a$10$XgTt22LJ69A.bNsiF7gb5.wpl...xhfp4Bz9kolzuRWq93L0xVxpi",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618588a025bbe6998505f4c8"
+  },
+  "name": "Clur",
+  "email": "clare@email.com",
+  "password": "$2a$10$hGFQO7gd2sHFdP3rEzmuRuCazqjECoXKtUf4qOjSbSazwwJsyJLVu",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618588af25bbe6998505f4cb"
+  },
+  "name": "Cl",
+  "email": "clureee@mail.com",
+  "password": "$2a$10$OVXI2fkXpFP3PIs6gwnUSOWqV.hQXogM1IUiaHlJFhOzx2En/dVNi",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618596a4f6f21ef0c509c70d"
+  },
+  "name": "Dan",
+  "email": "dan@mail.com",
+  "password": "$2a$10$4zQAqUzg0LGEcHCQODzYjeJcAyIcH45aAET.W1a/gii0PUiEn0EpG",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "61859710f6f21ef0c509c710"
+  },
+  "name": "Dan",
+  "email": "dan@mail.com",
+  "password": "$2a$10$c1QUbcC/M71IBLzDZbCbCed4bbM/M7r3Ux5TADKTnouswmzH/zUfa",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618646827e0c7855e8ffc94b"
+  },
+  "name": "Danny",
+  "email": "dan@mail.com",
+  "password": "$2a$10$Dpi3x3cLotr0ehiIaA3iHewA.CYvU.bhH1jdNaYu8NSqjIdIvvak2",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618646867e0c7855e8ffc94e"
+  },
+  "name": "Dan",
+  "email": "dan@mail.com",
+  "password": "$2a$10$ZFfE20srvXdFtXoegyMwYO9NpkR.VgJQF6EZN8YNWZiajjLYIQbFa",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "61864695e62ae4eab0e04598"
+  },
+  "name": "Dan",
+  "email": "dan@mail.com",
+  "password": "$2a$10$fwCqIrsJ/91UhNjiZwlcxuVPbDdkg46C7J7jvlQHn7VY/acCTHi9e",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "61865e8c073655939ba7d9a1"
+  },
+  "name": "admin",
+  "email": "admin@mail.com",
+  "password": "$2a$10$.PJijjgkVGPtvSLZrOIjRuMGh3AfpD.8Ux8PnyeBTjCzWqQuYJSI.",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "61866015b30a74977a3b82e9"
+  },
+  "name": "admin",
+  "email": "admin@mail.com",
+  "password": "$2a$10$36OhzYW2Sfgw0mDTJOShce5BWXbFtR9pDZAM8A94WxNWOHlpleUo2",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "6186608eb30a74977a3b82ec"
+  },
+  "name": "admin",
+  "email": "admin@mail.com",
+  "password": "$2a$10$AtT9E1Dm3m/pvoNR7iZsGupznAWOjawRXscgADxakdM3F3hWd3VFe",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "61866151b30a74977a3b82ef"
+  },
+  "name": "admin",
+  "email": "admin@mail.com",
+  "password": "$2a$10$r/81sFzwY71YaIdZw/7T8.JfgJCny5oCclDKj44QU0Fhb3Xab6Q5q",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "61866198b30a74977a3b82f2"
+  },
+  "name": "admin",
+  "email": "admin@mail.com",
+  "password": "$2a$10$tpmJDYopg6Li/aFcUcxQc.9i2Wt0bvsQLPjyGoedrOQSpJVS60K8u",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "618663b40cbe8cbbbd7b2d4f"
+  },
+  "name": "adminwrong",
+  "email": "admin@mail.com",
+  "password": "$2a$10$CaiJkq/kNPvDs2oU86IyX.kMUmQvme2.ugFE2xxDWltj6h1qewL.q",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "6187de2980dfed23e615832c"
+  },
+  "name": "Dude",
+  "email": "dude@mail.com",
+  "password": "$2a$10$qYNPFH9xhxMTPyhHREiFTu8cutXQgHDsmwSme2POcu5nHZUjpsLn6",
+  "__v": 0,
+  "role": "customer"
+},{
+  "_id": {
+    "$oid": "6188c4f5a09ea986dfe0f9e3"
+  },
+  "name": "Clare",
+  "email": "clare@email.com",
+  "password": "$2a$10$qYNPFH9xhxMTPyhHREiFTu8cutXQgHDsmwSme2POcu5nHZUjpsLn6",
+  "role": "admin",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6188d73dbacab76eb88d760b"
+  },
+  "name": "Clare",
+  "email": "clare@mail.com",
+  "password": "$2a$10$unMbbYC6FXN1K7pQ7/p1teLg67AUceEbIcGkNvJRCnhv3ZHjEIGE6",
+  "role": "admin",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61891e5fa5123a072371da7a"
+  },
+  "name": "Man",
+  "email": "man@mail.com",
+  "password": "$2a$10$m6gToUTna9ZrhXTFIYzfTucKrzgDRXj7./g9aW6rtzkENwzwDoKDC",
+  "role": "customer",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61891ea21c29841cb9c77f25"
+  },
+  "name": "Man",
+  "email": "man@mail.com",
+  "password": "$2a$10$03I5Jir7u3zpNZ2/ztI8eeFHZ7/X2lyY55VkB1p1CegTuw4uxUQ7a",
+  "role": "customer",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61891eab1c29841cb9c77f28"
+  },
+  "name": "Man",
+  "email": "man@mail.com",
+  "password": "$2a$10$iMkSk839Vl.M3QYac1.uSOst/rxzr.m8RcjrZsQN5MsP/50OHhD.a",
+  "role": "customer",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61891f0833eb2aca727755e3"
+  },
+  "name": "Man",
+  "email": "man@mail.com",
+  "password": "$2a$10$vOD7BmnerYbKUoE.Iuko6.QiVF3KCSEqlHdUFsLAcuAdUnpJp1Yhi",
+  "role": "customer",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61891f1b33eb2aca727755e6"
+  },
+  "name": "Man",
+  "email": "man@mail.com",
+  "password": "$2a$10$FKfaN7qaNTW9gOTNLIcutuvF85nflwx9HzagFzc.910q9Jj.CWqwu",
+  "role": "customer",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618920d6950ae8256df5e61c"
+  },
+  "name": "Sarah",
+  "email": "sarah@mail.com",
+  "password": "$2a$10$35zCpM298UkClAsvky8x.O4gikwNP44502nJTmtRYzKIkkyFfymmy",
+  "role": "customer",
+  "__v": 0
+}]
