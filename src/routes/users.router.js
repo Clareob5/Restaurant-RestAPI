@@ -5,6 +5,8 @@ import UsersController from '../controllers/users.controller.js'; //importing us
 const router = Router();
 
 //router urls for the user methods
+router.get("/", UsersController.getUsers);
+router.get("/:id", UsersController.getUserById);
 router.post("/register", UsersController.register);
 router.post("/login", UsersController.login);
 router.get("/logout", UsersController.logout);

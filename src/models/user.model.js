@@ -57,7 +57,7 @@ userSchema.methods.passwordCheck = async function(password) {
 
 //returns the chosen user information in json format 
 userSchema.methods.toJson = function() {
-    return { name: this.name, email: this.email, role: this.role, preferences: this.preferences };
+    return { id: this._id, name: this.name, email: this.email, role: this.role};
 };
 
 //User for the user model

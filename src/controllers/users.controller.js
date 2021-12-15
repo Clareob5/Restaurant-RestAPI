@@ -66,7 +66,7 @@ const logoutUser = async (email) => {
             //to crosscheck for trhe same email within the database
             const userFromDB = await User.findOne({"email": userFromBody.email}).exec();          
             if (userFromDB) {
-                 return res.status(400).json({ message: "An account with this email already exists" });
+                 return res.status(400).json({ email: "An account with this email already exists" });
             }    
             
             //sets the data from user body but with the hashed password as user info
@@ -98,23 +98,23 @@ const logoutUser = async (email) => {
             const { email, password } = req.body;
             //error handling for login checking format 
             if (!email || typeof email !== "string") {
-                res.status(400).json({ error: "Bad email format, expected string." });
+                res.status(400).json({ email: "Bad email format, expected string." });
                 return;
             }
             if (!password || typeof password !== "string") {
-                res.status(400).json({ error: "Bad password format, expected string." });
+                res.status(400).json({ password: "Bad password format, expected string." });
                 return;
             }
             //checking that the email exists in the database and if it doesn't throws an email is incorrect error
             //uses the mongoose findOne query to find an email equal to the inputted email
             let user = await User.findOne({ "email" : email }).exec();
             if (!user) {
-                res.status(401).json({ error: "Make sure your email is correct." });
+                res.status(401).json({ email: "Make sure your email is correct." });
                 return;
             }
             //using the password check method in user model to cross check the saved password with the entered password
             if (!(await user.passwordCheck(password))) {
-                res.status(401).json({ error: "Make sure your password is correct." });
+                res.status(401).json({ password: "Make sure your password is correct." });
                 return;
             }
 
@@ -163,6 +163,38 @@ const logoutUser = async (email) => {
             return;
         }
     }
+
+      //async method for retreiving all restaurants 
+      static async getUsers(req, res) {
+
+          //getting all restaurants but haveing a page limit 
+          const usersList = await User.find({}).limit(30).exec();
+          //reponse with filters
+          let response = {
+              users: usersList
+          }
+          res.json(response);
+
+      }
+      //get user by id 
+      static async getUserById(req, res) {
+          try {
+              //get the id from the url
+              let id = req.params.id || {};
+              //using mongoose model find the respective user
+              let user = await User.findById(id).exec();
+              //return a not found error if id doesnt exist
+              if (!user) {
+                  res.status(404).json({ error: "Not found" });
+                  return;
+              }
+              res.status(200).json({ user });
+          }
+          catch (e) {
+              res.status(500).json({ error: e.message })
+
+          }
+      }
 
     //my delete user method
     static async delete(req, res) {
