@@ -5,7 +5,7 @@ export default class RestaurantsController {
     //async method for retreiving all restaurants 
     static async getRestaurants(req, res) {
 
-        const each_page= 2300;
+        const each_page= 2500;
         //getting all restaurants but haveing a page limit 
         const restaurantsList = await Restaurant.find({}).limit(each_page).exec();
         //reponse with filters
