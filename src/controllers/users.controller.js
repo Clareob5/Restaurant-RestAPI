@@ -91,6 +91,38 @@ const logoutUser = async (email) => {
         }
     }
 
+      //async method for retreiving all restaurants 
+      static async getUsers(req, res) {
+
+          //getting all restaurants but haveing a page limit 
+          const usersList = await User.find({}).limit(30).exec();
+          //reponse with filters
+          let response = {
+              users: usersList
+          }
+          res.json(response);
+
+      }
+      //get user by id 
+      static async getUserById(req, res) {
+          try {
+              //get the id from the url
+              let id = req.params.id || {};
+              //using mongoose model find the respective user
+              let user = await User.findById(id).exec();
+              //return a not found error if id doesnt exist
+              if (!user) {
+                  res.status(404).json({ error: "Not found" });
+                  return;
+              }
+              res.status(200).json({ user });
+          }
+          catch (e) {
+              res.status(500).json({ error: e.message })
+
+          }
+      }
+
     //async login function using Express middleware 
     static async login(req, res) {
         try {
@@ -164,37 +196,6 @@ const logoutUser = async (email) => {
         }
     }
 
-      //async method for retreiving all restaurants 
-      static async getUsers(req, res) {
-
-          //getting all restaurants but haveing a page limit 
-          const usersList = await User.find({}).limit(30).exec();
-          //reponse with filters
-          let response = {
-              users: usersList
-          }
-          res.json(response);
-
-      }
-      //get user by id 
-      static async getUserById(req, res) {
-          try {
-              //get the id from the url
-              let id = req.params.id || {};
-              //using mongoose model find the respective user
-              let user = await User.findById(id).exec();
-              //return a not found error if id doesnt exist
-              if (!user) {
-                  res.status(404).json({ error: "Not found" });
-                  return;
-              }
-              res.status(200).json({ user });
-          }
-          catch (e) {
-              res.status(500).json({ error: e.message })
-
-          }
-      }
 
     //my delete user method
     static async delete(req, res) {
