@@ -20,14 +20,12 @@ export default class RestaurantsController {
 
     static async getRestaurantsCoords(req, res) {
 
-        const each_page = 50;
+        const each_page = 100;
         //getting all restaurants but haveing a page limit 
         const restaurantsList = await Restaurant.find({}).limit(each_page).exec();
         //reponse with filters
         let response = {
-            restaurants: restaurantsList,
-            page: 0,
-            entries_per_page: each_page
+            restaurants: restaurantsList
         }
         res.json(response);
 
