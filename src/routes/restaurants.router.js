@@ -5,6 +5,7 @@ const router = Router();
 
 //router HTTP requests, accessing the controller methods 
 router.get("/", RestaurantsController.getRestaurants);
+router.get("/coords", RestaurantsController.getRestaurantsCoords);
 router.get("/:id", RestaurantsController.getRestaurantbyid);
 router.post("/", RestaurantsController.createRestaurant);
 router.put("/:id", RestaurantsController.updateRestaurant);
